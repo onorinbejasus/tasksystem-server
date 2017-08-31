@@ -2,9 +2,15 @@ from django.db import models
 from django.contrib.auth.models import User
 
 class Task(models.Model):
-  name = models.TextField()
+  desc = models.TextField()
+  location = models.TextField()
   code = models.IntegerField()
-  starttime = models.DateTimeField()
-  endtime = models.DateTimeField()
-  sv = models.ForeignKey(User)
+  date = models.DateField()
+  starttime = models.TimeField()
+  endtime = models.TimeField()
+  sv = models.ForeignKey(User, null=True)
+
+  @property
+  def category(self):
+    return int(self.code / 1000)
 

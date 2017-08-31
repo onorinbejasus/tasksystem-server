@@ -5,5 +5,5 @@ from taskselection.models import Task
 class TaskSerializer(serializers.ModelSerializer):
   class Meta:
     model = Task
-    fields = ('name', 'code', 'starttime', 'endtime')
+    fields = ('desc', 'code', 'category', 'date', 'starttime', 'endtime')
 
