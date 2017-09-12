@@ -6,6 +6,8 @@ from rest_framework.parsers import JSONParser
 from taskselection.models import Task
 from taskselection.serializers import TaskSerializer
 from rest_framework.views import APIView
+from channels import Group
+import json
 
 class AvailableTaskList(APIView):
   def get(self, request):
@@ -15,34 +17,39 @@ class AvailableTaskList(APIView):
 
 class SelectedTaskList(APIView):
   def get(self, request):
-    # FIXME: authentication and search by user
-    #sv = request.user
-    sv = User.objects.get(pk=1)
+    sv = request.user
+    #sv = User.objects.get(pk=1)
     tasks = Task.objects.filter(sv=sv)
     serializer = TaskSerializer(tasks, many=True)
     return JsonResponse(serializer.data, safe=False)
 
 class SelectTask(APIView):
   def put(self, request, code):
-    #sv = request.user
-    sv = User.objects.get(pk=1)
+    sv = request.user
+    #sv = User.objects.get(pk=1)
     task = Task.objects.get(code=code)
     if task.sv == None:
       task.sv = sv
       task.save()
       serializer = TaskSerializer(task)
+      Group('task_selections').send({
+        'text': json.dumps({'action': 'remove', 'task': serializer.data})
+      })
       return JsonResponse(serializer.data, safe=False)
     else:
       return Response("task taken", status=status.HTTP_400_BAD_REQUEST)
 
   def delete(self, request, code):
-    #sv = request.user
-    sv = User.objects.get(pk=1)
+    sv = request.user
+    #sv = User.objects.get(pk=1)
     task = Task.objects.get(code=code)
     if task.sv == sv:
       task.sv = None
       task.save()
       serializer = TaskSerializer(task)
+      Group('task_selections').send({
+        'text': json.dumps({'action': 'add', 'task': serializer.data})
+      })
       return JsonResponse(serializer.data, safe=False)
     else:
       return Response("not our task", status=status.HTTP_400_BAD_REQUEST)

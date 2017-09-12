@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'corsheaders',
     'rest_framework',
+    'channels',
     'rest_framework.authtoken',
     'taskselection.apps.TaskselectionConfig',
 ]
@@ -114,6 +115,14 @@ REST_FRAMEWORK = {
   'DEFAULT_PERMISSION_CLASSES': (
     'rest_framework.permissions.IsAuthenticated',
   )
+}
+
+# Websockets
+CHANNEL_LAYERS = {
+  "default": {
+    "BACKEND": "asgiref.inmemory.ChannelLayer",
+    "ROUTING": "taskselection.routing.channel_routing",
+  }
 }
 
 # Internationalization
