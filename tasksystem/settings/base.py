@@ -19,12 +19,6 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.11/howto/deployment/checklist/
 
-# SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'p#$hm-6n0^c6f6iuf0^iu0sla_()$)gt196m=cz&6_48_=68yq'
-
-# SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
-
 ALLOWED_HOSTS = []
 
 
@@ -80,10 +74,6 @@ WSGI_APPLICATION = 'tasksystem.wsgi.application'
 # https://docs.djangoproject.com/en/1.11/ref/settings/#databases
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-    }
 }
 
 CORS_ORIGIN_ALLOW_ALL = True
@@ -125,10 +115,6 @@ REST_FRAMEWORK = {
 
 # Websockets
 CHANNEL_LAYERS = {
-  "default": {
-    "BACKEND": "asgiref.inmemory.ChannelLayer",
-    "ROUTING": "taskselection.routing.channel_routing",
-  }
 }
 
 # Internationalization
