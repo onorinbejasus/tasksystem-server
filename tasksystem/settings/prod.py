@@ -16,4 +16,5 @@ CHANNEL_LAYERS['default'] = {
   "ROUTING": "taskselection.routing.channel_routing",
 }
 
+SECRET_KEY = os.environ.get('SECRET_KEY')
 
