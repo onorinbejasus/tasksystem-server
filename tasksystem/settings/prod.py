@@ -7,6 +7,8 @@ DEBUG = True
 db_from_env = dj_database_url.config(conn_max_age=500)
 DATABASES['default'] = db_from_env
 
+ALLOWED_HOSTS = ['sv-task-server.herokuapp.com']
+
 # websockets
 CHANNEL_LAYERS['default'] = {
   "BACKEND": "asgi_redis.RedisChannelLayer",
