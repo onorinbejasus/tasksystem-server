@@ -1,3 +1,4 @@
+asgi-redis==1.4.2
 asgiref==1.1.2
 attrs==17.2.0
 autobahn==17.9.1
@@ -12,9 +13,11 @@ djangorestframework==3.6.4
 gunicorn==19.7.1
 hyperlink==17.3.1
 incremental==17.5.0
+msgpack-python==0.4.8
 psycopg2==2.7.3.1
 pytz==2017.2
 PyYAML==3.12
+redis==2.10.6
 six==1.10.0
 Twisted==17.5.0
 txaio==2.8.2
