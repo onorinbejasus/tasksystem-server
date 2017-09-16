@@ -14,20 +14,22 @@ class Command(BaseCommand):
 
   def handle(self, *args, **options):
     with open(options['users'], 'r') as csvfile:
-      csvreader = csv.reader(csvfile, delimiter=';')
+      csvreader = csv.DictReader(csvfile, delimiter=';')
       # if this doesn't work the delimiter might be wrong
-      for email, fname, lname, pw in csvreader:
+      for row in csvreader:
         try:
-          user = User.objects.create_user(username=email, email=email, 
-                                          first_name=fname, last_name=lname)
-          user.set_password(pw)
+          user = User.objects.create_user(username=row['username'], 
+                                          email=row['username'], 
+                                          first_name=row['firstname'], 
+                                          last_name=row['lastname'])
+          user.set_password(row['password'])
           user.save()
 
-          assert authenticate(username=email, password=pw)
-          self.stdout.write("User {0} successfully created.".format(email))
+          assert authenticate(username=row['username'], password=row['password'])
+          self.stdout.write("User {0} successfully created.".format(row['username']))
         except:
           print('There was a problem creating the user: {0}.  Error: {1}.' \
-                .format(email, sys.exc_info()[1]))
+                .format(row['username'], sys.exc_info()[1]))
 
 
 
