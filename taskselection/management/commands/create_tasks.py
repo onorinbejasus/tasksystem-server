@@ -1,8 +1,18 @@
 from django.core.management.base import BaseCommand, CommandError
-from django.contrib.auth import authenticate
+from django.contrib.auth import get_user_model
 from taskselection.models import Task
 import sys
 import csv
+
+User = get_user_model()
+
+TRUE_VALS = [
+  'true',
+  '1',
+  't',
+]
+def parse_truth(v):
+  return v.lower() in TRUE_VALS
 
 class Command(BaseCommand):
   help = 'Creates new tasks in the db for the given csv file'
@@ -24,10 +34,22 @@ class Command(BaseCommand):
             starttime = row['starttime'],
             endtime = row['endtime'],
             date = row['date'],
+            #is_sticky = parse_truth(row['sticky'])
           )
           task.save()
 
           self.stdout.write("Task {0} successfully created.".format(row['code']))
+
+          # see if we should bind this task to a particular user
+          if row['username']:
+            sv = User.objects.get(username=row['username'])
+            if not sv:
+              raise "User {0} not found".format(row['username'])
+            task.sv = sv
+            task.is_sticky = True
+            task.save()
+            self.stdout.write("Task {0} bound to {1}.".format(row['code'], row['username']))
+
         except:
           print('There was a problem creating the task: {0}.  Error: {1}.' \
                 .format(row['code'], sys.exc_info()[1]))

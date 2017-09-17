@@ -8,6 +8,7 @@ class Task(models.Model):
   date = models.DateField()
   starttime = models.TimeField()
   endtime = models.TimeField()
+  is_sticky = models.BooleanField(default=False)
   sv = models.ForeignKey(User, null=True)
 
   @property
