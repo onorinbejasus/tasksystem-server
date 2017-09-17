@@ -45,7 +45,9 @@ class SelectTask(APIView):
     sv = request.user
     #sv = User.objects.get(pk=1)
     task = Task.objects.get(code=code)
-    if task.sv == sv:
+    if task.is_sticky:
+      return Response({"code": "task_not_removable"}, status=status.HTTP_400_BAD_REQUEST)
+    elif task.sv == sv:
       task.sv = None
       task.save()
       serializer = TaskSerializer(task)
