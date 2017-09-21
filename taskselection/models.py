@@ -4,7 +4,7 @@ from django.contrib.auth.models import User
 class Task(models.Model):
   desc = models.TextField()
   location = models.TextField()
-  code = models.IntegerField()
+  code = models.IntegerField(unique=True)
   date = models.DateField()
   starttime = models.TimeField()
   endtime = models.TimeField()
