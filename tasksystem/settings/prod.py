@@ -20,3 +20,12 @@ CHANNEL_LAYERS['default'] = {
 
 SECRET_KEY = os.environ.get('SECRET_KEY')
 
+# CORS settings
+CORS_ORIGIN_ALLOW_ALL = False
+CORS_ORIGIN_WHITELIST = (
+  'vissv.org'
+)
+CORS_REPLACE_HTTPS_REFERER = True
+CORS_ALLOW_CREDENTIALS = True
+
+

@@ -18,3 +18,8 @@ CHANNEL_LAYERS['default'] = {
   "ROUTING": "taskselection.routing.channel_routing",
 }
 
+# CORS settings
+CORS_ORIGIN_ALLOW_ALL = True
+CORS_REPLACE_HTTPS_REFERER = True
+CORS_ALLOW_CREDENTIALS = True
+
