@@ -19,8 +19,14 @@ class Command(BaseCommand):
 
   def add_arguments(self, parser):
     parser.add_argument('tasks', type=str)
+    parser.add_argument('--clear', dest='clear_tasks', default=False, action='store_true')
 
   def handle(self, *args, **options):
+    if options['clear_tasks']:
+      ans = input('Setting --clear will delete all tasks from the database. Is this ok? (Y/N) ')
+      if ans =='Y':
+        print('Deleting all tasks')
+        Task.objects.all().delete()
     with open(options['tasks'], 'r') as csvfile:
       csvreader = csv.DictReader(csvfile, delimiter=';')
       # if this doesn't work the delimiter might be wrong

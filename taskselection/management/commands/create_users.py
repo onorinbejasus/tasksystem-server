@@ -11,8 +11,17 @@ class Command(BaseCommand):
 
   def add_arguments(self, parser):
     parser.add_argument('users', type=str)
+    parser.add_argument('--clear', dest='clear_users', default=False, action='store_true')
+
 
   def handle(self, *args, **options):
+    if options['clear_users']:
+      print('Setting --clear will delete all users (except superusers) from the database.')
+      ans = input('Is this ok? (Y/N) ')
+      if ans =='Y':
+        print('Deleting all users')
+        User.objects.filter(is_superuser=False).delete()
+    
     with open(options['users'], 'r') as csvfile:
       csvreader = csv.DictReader(csvfile, delimiter=';')
       # if this doesn't work the delimiter might be wrong
