@@ -8,12 +8,15 @@ import csv
 User = get_user_model()
 
 EXPORT_FIELDS = [
-  'code',
-  'desc',
-  'starttime',
-  'endtime',
-  'firstname',
-  'lastname'
+  ('code', '2.5em'),
+  ('desc', '8em'),
+  ('location', '5em'),
+  ('starttime', '5em'),
+  ('endtime', '5em'),
+  ('firstname', '6em'),
+  ('lastname', '6em'),
+  ('sign-in', '7em'),
+  ('sign-out', '7em'),
 ]
 
 PREAMBLE = """
@@ -46,14 +49,14 @@ def sanitize_latex(s):
   return s.replace("&", "\\&")
 
 def format_head(date, fields):
-  frmt = "|" + "|".join("l"*len(fields))
-  frmt = frmt + "|p{10em}|p{10em}|"
-  flds = ["\\textbf{%s}" % (f) for f in fields + ["sign-in", "sign-out"]]
+  frmt = "|" + "|".join(["p{" + f[1] + "}" for f in fields]) + "|"
+  flds = ["\\textbf{%s}" % (f[0]) for f in fields]
   flds = " & ".join(flds)
   return PREAMBLE % (str(date), frmt, flds)
 
 def format_line(task):
-  row = [task.code, task.desc, task.starttime, task.endtime]
+  row = [task.code, task.desc, task.location, 
+         task.starttime.strftime("%H:%M"), task.endtime.strftime("%H:%M")]
   if task.sv:
     row = row + [task.sv.first_name, task.sv.last_name]
   else:

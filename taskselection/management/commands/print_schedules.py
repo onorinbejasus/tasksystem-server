@@ -9,10 +9,11 @@ User = get_user_model()
 
 EXPORT_FIELDS = [
   ('code', '4em'),
-  ('desc', '20em'),
+  ('desc', '25em'),
+  ('location', '7em'),
+  ('date', '5em'),
   ('starttime', '5em'),
-  ('endtime', '5em'),
-  ('location', '10em')
+  ('endtime', '5em')
 ]
 
 PREAMBLE = """
@@ -28,7 +29,6 @@ PREAMBLE = """
 SV_SECTION_START = """
 \\section*{%s}
 
-\\renewcommand\\arraystretch{2.1}
 \\begin{center}
 \\begin{longtable}{%s}
 \\hline
@@ -58,7 +58,8 @@ def format_head(sv, fields):
   return SV_SECTION_START % (name, frmt, flds)
 
 def format_line(task):
-  row = [task.code, task.desc, task.starttime, task.endtime, task.location]
+  row = [task.code, task.desc, task.location, task.date, 
+         task.starttime.strftime("%H:%M"), task.endtime.strftime("%H:%M")]
   row = [str(f) for f in row]
   row = [sanitize_latex(f) for f in row]
   return " & ".join(row) + " \\\\"
