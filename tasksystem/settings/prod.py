@@ -4,6 +4,12 @@ import dj_database_url
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
+# Option to lock down the task system
+if os.environ.get('LOCK_TASKS', 'false').lower() == 'true':
+  LOCK_TASKSELECTION = True
+else:
+  LOCK_TASKSELECTION = False
+
 db_from_env = dj_database_url.config(conn_max_age=500)
 DATABASES['default'] = db_from_env
 

@@ -3,6 +3,9 @@ from tasksystem.settings.base import *
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+# Option to lock down the task system
+LOCK_TASKSELECTION = False
+
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'p#$hm-6n0^c6f6iuf0^iu0sla_()$)gt196m=cz&6_48_=68yq'
 
