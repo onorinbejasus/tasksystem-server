@@ -78,7 +78,7 @@ class Command(BaseCommand):
     task_dates = Task.objects.order_by('date').values('date').distinct()
     for td in task_dates:
       d = td['date'] # FIXME: messy
-      tasks = Task.objects.filter(date=d).order_by('starttime')
+      tasks = Task.objects.filter(date=d).order_by('starttime', 'code')
       print(d.strftime("%m%d"))
       texfile = path.join(options['export_dir'], d.strftime("%m%d") + ".tex")
       # print a tex file with a table for each day
