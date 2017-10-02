@@ -22,6 +22,8 @@ EXPORT_FIELDS = [
 PREAMBLE = """
 \\documentclass[12pt]{article}
 
+\\nofiles
+
 \\usepackage[landscape,margin=0.5in]{geometry}
 \\usepackage{longtable}
 
