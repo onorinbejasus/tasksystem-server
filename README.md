@@ -215,3 +215,6 @@ You can check if the application is running by trying to access the root URL
 of the server. This should give you a message that the server is running.
 The root URL can be found in the settings page for your app.
 
+Once the conference is over, it's probably a good idea to run the task export
+script, save it somewhere, and then delete the app.
+
