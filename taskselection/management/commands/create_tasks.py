@@ -27,7 +27,7 @@ class Command(BaseCommand):
       if ans =='Y':
         print('Deleting all tasks')
         Task.objects.all().delete()
-    with open(options['tasks'], 'r') as csvfile:
+    with open(options['tasks'], 'r', encoding='utf-8-sig') as csvfile:
       csvreader = csv.DictReader(csvfile, delimiter=';')
       # if this doesn't work the delimiter might be wrong
       for row in csvreader:
