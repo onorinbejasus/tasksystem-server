@@ -208,10 +208,9 @@ application server on Heroku:
     is also fine.
 8.  Run `heroku config:set SECRET_KEY=<something>` where <something> is a 
     random string.
-9.  Run `heroku config:set DISABLE_COLLECTSTATIC=1`
-10. Run `git push heroku master` which will push your code to heroku, migrate
+9. Run `git push heroku master` which will push your code to heroku, migrate
     the database, and start the server.
-11. Run `heroku config:set LOCK_TASKS=false` this will ensure that tasks are
+10. Run `heroku config:set LOCK_TASKS=false` this will ensure that tasks are
     not locked so SVs can select them.
 
 You can check if the application is running by trying to access the root URL
