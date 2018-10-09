@@ -49,7 +49,8 @@ python manage.py runserver --settings=tasksystem.settings.dev
 or the local server in production mode:
 
 ```
-python manage.py runserver --settings=tasksystem.settings.prod
+heroku config -s > .env
+heroku local
 ```
 
 Note that production mode will use the production database so be careful about
@@ -206,6 +207,7 @@ application server on Heroku:
 6.  Create a postgres database add-on. The free tier is fine.
 7.  Create a redis database add-on (needed for websockets). The free tier 
     is also fine.
+8.  Run `heroku config:set DJANGO_SETTINGS_MODULE=tasksystem.settings.prod`.
 8.  Run `heroku config:set SECRET_KEY=<something>` where <something> is a 
     random string.
 9. Run `git push heroku master` which will push your code to heroku, migrate
