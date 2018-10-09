@@ -24,7 +24,8 @@ CHANNEL_LAYERS['default'] = {
   "ROUTING": "taskselection.routing.channel_routing",
 }
 
-SECRET_KEY = os.environ.get('SECRET_KEY')
+#SECRET_KEY = os.environ.get('SECRET_KEY')
+SECRET_KEY = '12345abc'
 
 # CORS settings
 CORS_ORIGIN_ALLOW_ALL = False
