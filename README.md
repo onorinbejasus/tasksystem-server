@@ -206,6 +206,7 @@ application server on Heroku:
 6. Create a postgres database add-on. The free tier is fine.
 7. Create a redis database add-on (needed for websockets). The free tier 
    is also fine.
+8. Go into "Settings", click on "show config vars", and add a SECRET_KEY variable.
 8. Run `git push heroku master` which will push your code to heroku, migrate
    the database, and start the server.
 9. Run `heroku config:set LOCK_TASKS=false` this will ensure that tasks are
