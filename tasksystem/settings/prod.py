@@ -2,7 +2,7 @@ from tasksystem.settings.base import *
 import dj_database_url
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 # Option to lock down the task system
 if os.environ.get('LOCK_TASKS', 'false').lower() == 'true':
