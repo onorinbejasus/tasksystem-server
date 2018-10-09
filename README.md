@@ -199,7 +199,7 @@ application server on Heroku:
 
 1.  Sign up with heroku
 2.  Install the Herkoku CLI tools
-3.  Create a new app. Run `heroku create` in the source code directory
+3.  Create a new app named 'sv-task-system'. It is important for the ALLOWED_HOSTS variable.
 4.  Log into the web interface. You should see your newly created app there.
     Click on it to go to the settings.
 5.  Click on "configure add-ons"
