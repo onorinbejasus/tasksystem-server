@@ -197,20 +197,22 @@ If you haven't used Heroku before, it's pretty easy. The strange thing is
 that they do everything through git. Here are the steps for deploying the
 application server on Heroku:
 
-1. Sign up with heroku
-2. Install the Herkoku CLI tools
-3. Create a new app. Run `heroku create` in the source code directory
-4. Log into the web interface. You should see your newly created app there.
-   Click on it to go to the settings.
-5. Click on "configure add-ons"
-6. Create a postgres database add-on. The free tier is fine.
-7. Create a redis database add-on (needed for websockets). The free tier 
-   is also fine.
-8. Go into "Settings", click on "show config vars", and add a SECRET_KEY variable.
-8. Run `git push heroku master` which will push your code to heroku, migrate
-   the database, and start the server.
-9. Run `heroku config:set LOCK_TASKS=false` this will ensure that tasks are
-   not locked so SVs can select them.
+1.  Sign up with heroku
+2.  Install the Herkoku CLI tools
+3.  Create a new app. Run `heroku create` in the source code directory
+4.  Log into the web interface. You should see your newly created app there.
+    Click on it to go to the settings.
+5.  Click on "configure add-ons"
+6.  Create a postgres database add-on. The free tier is fine.
+7.  Create a redis database add-on (needed for websockets). The free tier 
+    is also fine.
+8.  Run `heroku config:set SECRET_KEY=<something>` where <something> is a 
+    random string.
+9.  Run `heroku config:set DISABLE_COLLECTSTATIC=1`
+10. Run `git push heroku master` which will push your code to heroku, migrate
+    the database, and start the server.
+11. Run `heroku config:set LOCK_TASKS=false` this will ensure that tasks are
+    not locked so SVs can select them.
 
 You can check if the application is running by trying to access the root URL
 of the server. This should give you a message that the server is running.
