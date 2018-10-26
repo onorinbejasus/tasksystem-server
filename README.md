@@ -87,6 +87,10 @@ that's why it's stored as an environment variable in production.
 Contains the connection information. Heroku likes to put this in an 
 environment variable.
 
+#### `DISABLE_COLLECTSTATIC`
+
+This needs to be set or the server will error on startup
+
 #### `CORS_*`
 
 Sets how permissive the server is about cross-origin scripts. For production
