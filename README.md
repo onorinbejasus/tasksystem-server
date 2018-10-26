@@ -216,7 +216,7 @@ application server on Heroku:
     random string.
 9. Run `git push heroku master` which will push your code to heroku, migrate
     the database, and start the server.
-10. Run `heroku config:set LOCK_TASKS=false` this will ensure that tasks are
+10. Run `heroku config:set LOCK_TASKSELECTION=false` this will ensure that tasks are
     not locked so SVs can select them.
 
 You can check if the application is running by trying to access the root URL
