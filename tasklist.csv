@@ -1,4 +1,4 @@
-"code";"category";"desc";"location";"date";"starttime";"endtime";"duration";"sv"
+"code";"category";"desc";"location";"date";"starttime";"endtime";"duration";"username"
 1000;1;"VDS";"Ballroom A";"2019-10-20";"8:45";"10:35";"1:50";""
 1001;1;"VAHC";"Ballroom B";"2019-10-20";"8:45";"10:35";"1:50";""
 1002;1;"VIS4DH";"Ballroom C";"2019-10-20";"8:45";"10:35";"1:50";""
