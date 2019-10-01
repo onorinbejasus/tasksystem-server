@@ -82,7 +82,7 @@ class Command(BaseCommand):
       print(d.strftime("%m%d"))
       texfile = path.join(options['export_dir'], d.strftime("%m%d") + ".tex")
       # print a tex file with a table for each day
-      print(texfile)
+      print(os.getcwd())
       with open(texfile, "w") as output:
         print(format_head(d, EXPORT_FIELDS), file=output)
         for task in tasks:
