@@ -29,6 +29,7 @@ class Command(BaseCommand):
       csvwriter.writerow(EXPORT_FIELDS)
       # if this doesn't work the delimiter might be wrong
       tasks = Task.objects.all()
+      print("exporting...")
       #.values_list(EXPORT_FIELDS, flat=True)
       for task in tasks:
         row = [task.desc, task.code, task.date, task.starttime, task.endtime]
