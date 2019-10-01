@@ -4,6 +4,7 @@ from taskselection.models import Task
 import sys
 from os import path
 import csv
+import os
 
 User = get_user_model()
 
