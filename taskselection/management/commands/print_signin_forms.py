@@ -4,7 +4,6 @@ from taskselection.models import Task
 import sys
 from os import path
 import csv
-import os
 
 User = get_user_model()
 
@@ -80,10 +79,9 @@ class Command(BaseCommand):
     for td in task_dates:
       d = td['date'] # FIXME: messy
       tasks = Task.objects.filter(date=d).order_by('starttime', 'code')
-      print(d.strftime("%m%d"))
-      texfile = path.join(options['export_dir'], d.strftime("%m%d") + ".tex")
+      print(d.strftime("%m-%d"))
+      texfile = path.join(options['export_dir'], d.strftime("%m-%d") + ".tex")
       # print a tex file with a table for each day
-      print(os.getcwd())
       with open(texfile, "w") as output:
         print(format_head(d, EXPORT_FIELDS), file=output)
         for task in tasks:
