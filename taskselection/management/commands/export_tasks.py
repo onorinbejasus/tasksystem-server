@@ -3,6 +3,7 @@ from django.contrib.auth import get_user_model
 from taskselection.models import Task
 import sys
 import csv
+from tasksystem.settings.base import *
 
 User = get_user_model()
 
@@ -30,12 +31,10 @@ class Command(BaseCommand):
       # if this doesn't work the delimiter might be wrong
       tasks = Task.objects.all()
       print("exporting...")
+      print(BASE_DIR);
       #.values_list(EXPORT_FIELDS, flat=True)
       for task in tasks:
         row = [task.desc, task.code, task.date, task.starttime, task.endtime]
         if task.sv:
           row = row + [task.sv.first_name, task.sv.last_name, task.sv.email]
         csvwriter.writerow(row)
-
-
-
