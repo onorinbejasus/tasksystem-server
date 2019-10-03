@@ -1,0 +1,465 @@
+desc;code;date;starttime;endtime;firstname;lastname;email
+VAHC;1001;2019-10-20;08:45:00;10:35:00
+VIS4DH;1002;2019-10-20;08:45:00;10:35:00
+Tutorial: Topological Data Analysis Made Easy with the Topology ToolKit, A Sequel;1004;2019-10-20;08:45:00;10:35:00
+Workshop: Visualization for Communication (VisComm);1007;2019-10-20;08:45:00;10:35:00
+LDAV;1032;2019-10-21;08:45:00;10:35:00;SV;VIS;svadmin
+VAHC;1009;2019-10-20;10:35:00;12:25:00
+VIS4DH;1010;2019-10-20;10:35:00;12:25:00
+Workshop: MLUI 2019: Machine Learning from User Interactions for Visualization and Analytics;1021;2019-10-20;14:05:00;15:55:00;SV;VIS;svadmin
+Tutorial: Topological Data Analysis Made Easy with the Topology ToolKit, A Sequel;1012;2019-10-20;10:35:00;12:25:00
+Tutorial: Visualizing Multivariate Networks ;1014;2019-10-20;10:35:00;12:25:00
+VAHC;1017;2019-10-20;14:05:00;15:55:00
+VIS4DH;1018;2019-10-20;14:05:00;15:55:00
+Workshop: Vis X Vision: Workshop on Novel Directions in Vision Science and Visualization Research;1019;2019-10-20;14:05:00;15:55:00
+Tutorial: VTK-m - A ToolKit for Scientific Visualization on Many-Core Processors;1020;2019-10-20;14:05:00;15:55:00
+Tutorial: Better Presentations for Visualization Research;1022;2019-10-20;14:05:00;15:55:00
+VDS;1024;2019-10-20;15:55:00;17:45:00
+VIS4DH;1026;2019-10-20;15:55:00;17:45:00
+Workshop: Vis X Vision: Workshop on Novel Directions in Vision Science and Visualization Research;1027;2019-10-20;15:55:00;17:45:00
+Tutorial: VTK-m - A ToolKit for Scientific Visualization on Many-Core Processors;1028;2019-10-20;15:55:00;17:45:00
+Workshop: MLUI 2019: Machine Learning from User Interactions for Visualization and Analytics;1029;2019-10-20;15:55:00;17:45:00
+Application Spotlight: Visualization in meteorology and climate sciences: recent research and open challenges;1023;2019-10-20;14:05:00;15:55:00
+Application Spotlight: Visual Analysis of Air and Maritime Trajectory Data;1031;2019-10-20;15:55:00;17:45:00
+Tutorial: Visualizing Multivariate Networks ;1006;2019-10-20;08:45:00;10:35:00
+VAST Challenge;1034;2019-10-21;08:45:00;10:35:00
+Tutorial: Visual Analysis and Design;1036;2019-10-21;08:45:00;10:35:00
+Workshop: Evaluation of Interactive Visual Machine Learning Systems (EVIVA-ML);1037;2019-10-21;08:45:00;10:35:00
+Tutorial: Statistical Data Representation, Visualization, and Uncertainty Analysis;1038;2019-10-21;08:45:00;10:35:00
+Tutorial: Beyond Paper Types: How to Evaluate and Communicate VIS Research Contributions;1039;2019-10-21;08:45:00;10:35:00
+Workshop: DSIA 2019: Data Systems for Interactive Analysis;1035;2019-10-21;08:45:00;10:35:00
+VisInPractice;1041;2019-10-21;10:35:00;12:25:00
+VAST Challenge;1042;2019-10-21;10:35:00;12:25:00
+Workshop: DSIA 2019: Data Systems for Interactive Analysis;1043;2019-10-21;10:35:00;12:25:00
+Workshop: Evaluation of Interactive Visual Machine Learning Systems (EVIVA-ML);1045;2019-10-21;10:35:00;12:25:00
+Tutorial: Statistical Data Representation, Visualization, and Uncertainty Analysis;1046;2019-10-21;10:35:00;12:25:00
+Tutorial: Beyond Paper Types: How to Evaluate and Communicate VIS Research Contributions;1047;2019-10-21;10:35:00;12:25:00
+VisInPractice;1049;2019-10-21;14:05:00;15:55:00
+VAST Challenge;1050;2019-10-21;14:05:00;15:55:00
+Workshop: Challenges in Multilayer Network Visualization and Analysis;1051;2019-10-21;14:05:00;15:55:00
+Visualization for Social Good;1052;2019-10-21;14:05:00;15:55:00
+Workshop: 2nd Workshop on Visualization for AI Explainability (VISxAI);1053;2019-10-21;14:05:00;15:55:00
+Tutorial: User-Centred Evaluation in Visualization;1054;2019-10-21;14:05:00;15:55:00
+Application Spotlight: Visualization Software Development for Researchers and End Users - from general issues to specific challenges for medical applications;1055;2019-10-21;14:05:00;15:55:00
+LDAV;1056;2019-10-21;15:55:00;17:45:00
+Tutorial: Visual Analysis and Design;1044;2019-10-21;10:35:00;12:25:00
+VAST Challenge;1058;2019-10-21;15:55:00;17:45:00
+VisInPractice;1057;2019-10-21;15:55:00;17:45:00
+LDAV;1048;2019-10-21;14:05:00;15:55:00
+Workshop: Urban Data Visualization (CityVis) — Focus: The Role of the Citizen;1003;2019-10-20;08:45:00;10:35:00
+SetVA: Set Visual Analytics;1013;2019-10-20;10:35:00;12:25:00
+Workshop: Visualization for Communication (VisComm);1015;2019-10-20;10:35:00;12:25:00
+VDS;1016;2019-10-20;14:05:00;15:55:00
+VisInPractice;1033;2019-10-21;08:45:00;10:35:00
+SetVA: Set Visual Analytics;1005;2019-10-20;08:45:00;10:35:00
+VAHC;1025;2019-10-20;15:55:00;17:45:00
+Tutorial: Better Presentations for Visualization Research;1030;2019-10-20;15:55:00;17:45:00;SV;VIS;svadmin
+LDAV;1040;2019-10-21;10:35:00;12:25:00;SV;VIS;svadmin
+Workshop: Urban Data Visualization (CityVis) — Focus: The Role of the Citizen;1011;2019-10-20;10:35:00;12:25:00
+VDS;1000;2019-10-20;08:45:00;10:35:00
+VDS;1008;2019-10-20;10:35:00;12:25:00;SV;VIS;svadmin
+Workshop: Challenges in Multilayer Network Visualization and Analysis;1059;2019-10-21;15:55:00;17:45:00
+Visualization for Social Good;1060;2019-10-21;15:55:00;17:45:00
+Workshop: 2nd Workshop on Visualization for AI Explainability (VISxAI);1061;2019-10-21;15:55:00;17:45:00
+Tutorial: User-Centred Evaluation in Visualization;1062;2019-10-21;15:55:00;17:45:00
+Application Spotlight: Visualization paradigms in the renewable energy space;1063;2019-10-21;15:55:00;17:45:00
+Fast Forward (Tue & Wed Sessions);1064;2019-10-21;18:00:00;19:30:00
+Fast Forward (Tue & Wed Sessions);1065;2019-10-21;18:00:00;19:30:00
+Fast Forward (Tue & Wed Sessions);1066;2019-10-21;18:00:00;19:30:00
+Opening (Welcome, Awards, Best Papers);1068;2019-10-22;08:15:00;11:05:00
+Opening (Welcome, Awards, Best Papers);1069;2019-10-22;08:15:00;11:05:00
+Opening (Welcome, Awards, Best Papers);1071;2019-10-22;08:15:00;11:05:00
+Keynote;1072;2019-10-22;11:05:00;12:25:00
+Keynote;1073;2019-10-22;11:05:00;12:25:00
+Keynote;1075;2019-10-22;11:05:00;12:25:00
+InfoVis Opening and Provocations;1077;2019-10-22;14:05:00;15:55:00
+SciVis Opening and Scalar Topology;1078;2019-10-22;14:05:00;15:55:00
+Short Papers Opening and Novel Interfaces;1079;2019-10-22;14:05:00;15:55:00
+Panel: Exploring Reproducibility in Vis: Expanding on the National Academies' Report on Reproducibility and Replicability in Science;1080;2019-10-22;14:05:00;15:55:00
+SciVis Contest;1081;2019-10-22;14:05:00;15:55:00
+VIS Meets Machine Learning;1082;2019-10-22;15:55:00;17:45:00
+Features and Topology;1083;2019-10-22;15:55:00;17:45:00
+Bias & Patterns;1084;2019-10-22;15:55:00;17:45:00
+Application Spotlight: Visualization Enabled Scientific Discovery;1086;2019-10-22;15:55:00;17:45:00
+Supporters Presentations;1087;2019-10-22;15:55:00;17:45:00
+Multiscale Visualization;1088;2019-10-23;08:45:00;10:35:00
+Drawing Nodes and Edges;1089;2019-10-23;08:45:00;10:35:00
+Flow;1090;2019-10-23;08:45:00;10:35:00
+Short Papers: Perception, Cognition, and Visualization Design;1091;2019-10-23;08:45:00;10:35:00
+VizSec;1092;2019-10-23;08:45:00;10:35:00
+VISAP Session 1;1093;2019-10-23;08:45:00;10:35:00
+Animation and Sports;1095;2019-10-23;10:35:00;12:25:00
+Multivariate & Multidimensional Data;1096;2019-10-23;10:35:00;12:25:00
+Keynote;1074;2019-10-22;11:05:00;12:25:00
+Evaluation & Reproducibility;1094;2019-10-23;10:35:00;12:25:00
+VAST Opening and A Tour of VAST;1076;2019-10-22;14:05:00;15:55:00
+Short Papers: Systems and Design Studies;1085;2019-10-22;15:55:00;17:45:00
+Fast Forward (Tue & Wed Sessions);1067;2019-10-21;18:00:00;19:30:00
+Opening (Welcome, Awards, Best Papers);1070;2019-10-22;08:15:00;11:05:00
+Does AI mean data visualization is dead?;1097;2019-10-23;10:35:00;12:25:00
+VizSec;1098;2019-10-23;10:35:00;12:25:00
+CG&A Session 1;1099;2019-10-23;10:35:00;12:25:00
+Open discussion: Restructuring IEEE VIS for the Future;1100;2019-10-23;12:10:00;14:20:00
+(De)Construction;1101;2019-10-23;14:05:00;15:55:00
+Immersion and Virtual Environments;1102;2019-10-23;14:05:00;15:55:00
+Short Papers: VIS Meets Machine Learning;1104;2019-10-23;14:05:00;15:55:00
+VizSec;1105;2019-10-23;14:05:00;15:55:00
+Panel: Top Research Questions for Empirical Studies in Visualization;1106;2019-10-23;14:05:00;15:55:00
+Fast Forward (Thu & Fri Sessions);1107;2019-10-23;15:55:00;17:30:00
+Fast Forward (Thu & Fri Sessions);1108;2019-10-23;15:55:00;17:30:00
+Fast Forward (Thu & Fri Sessions);1109;2019-10-23;15:55:00;17:30:00
+Fast Forward (Thu & Fri Sessions);1110;2019-10-23;15:55:00;17:30:00
+XAI and Fairness;1111;2019-10-24;08:45:00;10:35:00
+Vis for Software and Systems;1112;2019-10-24;08:45:00;10:35:00
+Large Data and Dimensionality Reduction;1113;2019-10-24;08:45:00;10:35:00
+BioVis Challenge;1114;2019-10-24;08:45:00;10:35:00
+VISAP Session 2;1115;2019-10-24;08:45:00;10:35:00
+SIGGRAPH Session;1116;2019-10-24;08:45:00;10:35:00
+Scatterplots;1117;2019-10-24;10:35:00;12:25:00
+Volume Visualization;1118;2019-10-24;10:35:00;12:25:00
+Geovisualization;1119;2019-10-24;10:35:00;12:25:00
+BioVis Challenge;1120;2019-10-24;10:35:00;12:25:00
+CG&A Session 2;1121;2019-10-24;10:35:00;12:25:00
+Ensembles & Uncertainty;1122;2019-10-24;14:05:00;15:55:00
+Interactive Machine Learning;1123;2019-10-24;14:05:00;15:55:00
+Infographics & Storytelling;1124;2019-10-24;14:05:00;15:55:00
+Short Papers: Biology, Chemistry, and Medicine;1125;2019-10-24;14:05:00;15:55:00
+Panel: Visual Analytics, past, present and future;1126;2019-10-24;14:05:00;15:55:00
+Visualization in Medicine ;1127;2019-10-24;15:55:00;17:45:00
+Words & Documents;1128;2019-10-24;15:55:00;17:45:00
+What's the difference?;1129;2019-10-24;15:55:00;17:45:00
+Short Papers: Multi-Dimensional Data, Time Series, Graphs, and Trees;1130;2019-10-24;15:55:00;17:45:00
+Planning and Situational Awareness;1103;2019-10-23;14:05:00;15:55:00
+Application Spotlight: Knowledge-assisted Visual Analytics meets Guidance and Onboarding;1131;2019-10-24;15:55:00;17:45:00
+Influencers;1132;2019-10-25;08:45:00;10:35:00
+Color;1133;2019-10-25;08:45:00;10:35:00
+Searching & Querying;1134;2019-10-25;08:45:00;10:35:00
+Short Papers: Scalar, vector, and tensor fields;1135;2019-10-25;08:45:00;10:35:00
+Application Spotlight: Feature-based Visual Interactive Systems to Optimize Decision Making;1136;2019-10-25;08:45:00;10:35:00
+VIS Capstone and Closing;1137;2019-10-25;10:45:00;12:35:00
+VIS Capstone and Closing;1138;2019-10-25;10:45:00;12:35:00
+VIS Capstone and Closing;1139;2019-10-25;10:45:00;12:35:00
+VIS Capstone and Closing;1140;2019-10-25;10:45:00;12:35:00
+VIS Capstone and Closing;1141;2019-10-25;10:45:00;12:35:00
+Posters;2001;2019-10-20;10:30:00;12:30:00
+Posters;2002;2019-10-20;12:30:00;14:30:00
+Posters;2003;2019-10-20;14:00:00;16:00:00
+Posters;2005;2019-10-20;18:00:00;21:00:00
+Posters;2006;2019-10-21;08:30:00;10:00:00
+Posters;2007;2019-10-21;10:00:00;12:00:00
+Posters;2008;2019-10-21;12:00:00;14:00:00
+Posters;2009;2019-10-21;14:00:00;16:00:00
+Posters;2010;2019-10-21;16:00:00;18:00:00
+Arts Show Setup;2011;2019-10-21;18:00:00;20:00:00
+Arts Show Setup;2012;2019-10-21;18:00:00;20:00:00
+Posters;2013;2019-10-22;09:00:00;10:30:00
+Posters;2015;2019-10-22;12:00:00;14:00:00
+Posters;2016;2019-10-22;14:00:00;16:00:00
+Posters;2017;2019-10-22;16:00:00;18:00:00
+Arts Show;2019;2019-10-22;10:30:00;12:00:00
+Arts Show;2020;2019-10-22;12:00:00;14:00:00
+Arts Show;2021;2019-10-22;14:00:00;16:00:00
+Arts Show;2022;2019-10-22;16:00:00;18:00:00
+Exhibits;2023;2019-10-22;09:00:00;10:30:00
+Posters;2014;2019-10-22;10:30:00;12:00:00;SV;VIS;svadmin
+Posters;2004;2019-10-20;16:00:00;18:00:00
+VIS Capstone and Closing;1142;2019-10-25;10:45:00;12:35:00;SV;VIS;svadmin
+Posters;2000;2019-10-20;08:45:00;10:30:00;SV;VIS;svadmin
+Arts Show;2018;2019-10-22;09:00:00;10:30:00;SV;VIS;svadmin
+Exhibits;2024;2019-10-22;10:30:00;12:00:00
+Arts Show;2026;2019-10-23;09:00:00;10:30:00
+Exhibits;2027;2019-10-22;14:00:00;16:00:00
+Exhibits;2028;2019-10-22;16:00:00;18:00:00
+Arts Show;2029;2019-10-23;10:30:00;12:00:00
+Arts Show;2030;2019-10-23;12:00:00;14:00:00
+Arts Show;2031;2019-10-23;14:00:00;16:00:00
+Arts Show;2032;2019-10-23;16:00:00;18:00:00
+Posters;2033;2019-10-23;09:00:00;10:30:00
+Posters;2034;2019-10-23;10:30:00;12:00:00
+Posters;2035;2019-10-23;12:00:00;14:00:00
+Posters;2036;2019-10-23;14:00:00;16:00:00
+Posters;2037;2019-10-23;16:00:00;18:00:00
+Exhibits;2038;2019-10-23;09:00:00;10:30:00
+Exhibits;2039;2019-10-23;10:30:00;12:00:00
+Exhibits;2040;2019-10-23;12:00:00;14:00:00
+Exhibits;2041;2019-10-23;14:00:00;16:00:00
+Exhibits;2042;2019-10-23;16:00:00;18:00:00
+Arts Show;2043;2019-10-24;09:00:00;10:30:00
+Arts Show;2044;2019-10-24;10:30:00;12:00:00
+Arts Show;2046;2019-10-24;14:00:00;16:00:00
+Arts Show;2047;2019-10-24;16:00:00;18:00:00
+Exhibits;2048;2019-10-24;09:00:00;10:30:00
+Exhibits;2050;2019-10-24;12:00:00;14:00:00
+Exhibits;2051;2019-10-24;14:00:00;16:00:00
+Exhibits;2052;2019-10-24;16:00:00;18:00:00
+Poster Removal;2053;2019-10-24;18:00:00;19:00:00
+Posters;2055;2019-10-24;10:30:00;12:00:00
+Posters;2056;2019-10-24;12:00:00;14:00:00
+Posters;2057;2019-10-24;14:00:00;16:00:00
+Poster Removal;2058;2019-10-25;07:30:00;09:30:00
+Posters;2059;2019-10-24;16:00:00;18:00:00
+Poster Removal;2060;2019-10-25;09:30:00;11:30:00
+Registration Setup;3000;2019-10-19;16:00:00;18:00:00
+Registration Setup;3001;2019-10-19;16:00:00;18:00:00
+Arts Show;2045;2019-10-24;12:00:00;14:00:00
+Posters;2054;2019-10-24;09:00:00;10:30:00
+Exhibits;2049;2019-10-24;10:30:00;12:00:00
+Exhibits;2025;2019-10-22;12:00:00;14:00:00;SV;VIS;svadmin
+Registration;3002;2019-10-19;18:00:00;20:00:00
+Registration;3003;2019-10-19;18:00:00;20:00:00
+Registration;3004;2019-10-19;18:00:00;20:00:00
+Registration;3005;2019-10-19;18:00:00;20:00:00
+Registration (Director);3006;2019-10-19;18:00:00;20:00:00
+Registration;3007;2019-10-20;07:00:00;10:00:00
+Registration;3008;2019-10-20;07:00:00;10:00:00
+Registration;3009;2019-10-20;07:00:00;10:00:00
+Registration;3010;2019-10-20;07:00:00;10:00:00
+Registration (Director);3011;2019-10-20;07:00:00;10:00:00
+Info Desk;3012;2019-10-20;07:00:00;10:00:00
+Crowd Control;3013;2019-10-20;07:00:00;10:00:00
+Registration;3014;2019-10-20;10:00:00;12:00:00
+Registration;3015;2019-10-20;10:00:00;12:00:00
+Registration;3016;2019-10-20;10:00:00;12:00:00
+Registration;3017;2019-10-20;12:00:00;14:00:00
+Registration;3018;2019-10-20;12:00:00;14:00:00
+Registration;3019;2019-10-20;14:00:00;16:30:00
+Registration;3020;2019-10-20;14:00:00;16:30:00
+Registration;3021;2019-10-21;07:30:00;10:00:00
+Registration;3022;2019-10-21;07:30:00;10:00:00
+Registration;3023;2019-10-21;07:30:00;10:00:00
+Registration;3024;2019-10-21;07:30:00;10:00:00
+Registration;3025;2019-10-21;10:00:00;12:00:00
+Registration;3026;2019-10-21;10:00:00;12:00:00
+Registration;3027;2019-10-21;12:00:00;14:00:00
+Registration;3028;2019-10-21;12:00:00;14:00:00
+Registration;3029;2019-10-21;14:00:00;16:30:00
+Registration;3030;2019-10-21;14:00:00;16:30:00
+Registration;3031;2019-10-22;07:00:00;10:00:00
+Registration;3032;2019-10-22;07:00:00;10:00:00
+Registration;3033;2019-10-22;07:00:00;10:00:00
+Registration;3034;2019-10-22;07:00:00;10:00:00
+Info Desk;3035;2019-10-22;07:00:00;10:00:00
+Crowd Control;3036;2019-10-22;07:00:00;10:00:00
+Registration;3037;2019-10-22;10:00:00;12:00:00
+Registration;3038;2019-10-22;10:00:00;12:00:00
+Registration;3039;2019-10-22;12:00:00;14:00:00
+Registration;3040;2019-10-22;12:00:00;14:00:00
+Registration;3041;2019-10-22;14:00:00;16:30:00
+Registration;3042;2019-10-22;14:00:00;16:30:00
+Registration;3043;2019-10-23;07:30:00;10:00:00
+Registration;3044;2019-10-23;07:30:00;10:00:00
+Registration;3045;2019-10-23;10:00:00;12:00:00
+Registration;3046;2019-10-23;10:00:00;12:00:00
+Registration;3047;2019-10-23;12:00:00;14:00:00
+Registration;3048;2019-10-23;12:00:00;14:00:00
+Registration;3050;2019-10-23;14:00:00;16:30:00
+Registration;3049;2019-10-23;14:00:00;16:30:00;SV;VIS;svadmin
+Registration;3052;2019-10-24;07:30:00;10:00:00
+Registration;3053;2019-10-24;08:30:00;10:00:00
+Registration;3054;2019-10-24;10:00:00;12:00:00
+Registration;3055;2019-10-24;12:00:00;14:00:00
+Registration;3056;2019-10-24;14:00:00;16:30:00
+Registration;3057;2019-10-25;07:30:00;09:00:00
+Registration;3058;2019-10-25;09:00:00;10:30:00
+Speaker Prep;4000;2019-10-20;08:00:00;10:00:00
+Speaker Prep;4001;2019-10-20;10:00:00;12:00:00
+Speaker Prep;4002;2019-10-20;12:00:00;14:00:00
+Speaker Prep;4003;2019-10-20;14:00:00;16:00:00
+Speaker Prep;4005;2019-10-21;08:00:00;10:00:00
+Speaker Prep;4004;2019-10-20;16:00:00;18:00:00
+Registration;3051;2019-10-24;07:30:00;10:00:00;SV;VIS;svadmin
+Speaker Prep;4006;2019-10-21;10:00:00;12:00:00
+Speaker Prep;4007;2019-10-21;12:00:00;14:00:00
+Speaker Prep;4008;2019-10-21;14:00:00;16:00:00
+Speaker Prep;4009;2019-10-21;16:00:00;18:00:00
+Speaker Prep;4015;2019-10-23;08:00:00;10:00:00;SV;VIS;svadmin
+Speaker Prep;4010;2019-10-22;08:00:00;10:00:00
+Speaker Prep;4011;2019-10-22;10:00:00;12:00:00
+Speaker Prep;4013;2019-10-22;14:00:00;16:00:00;SV;VIS;svadmin
+Speaker Prep;4012;2019-10-22;12:00:00;14:00:00
+Standby;5000;2019-10-19;15:00:00;17:00:00;SV;VIS;svadmin
+Speaker Prep;4014;2019-10-22;16:00:00;18:00:00
+Speaker Prep;4016;2019-10-23;10:00:00;12:00:00
+Speaker Prep;4017;2019-10-23;12:00:00;14:00:00
+Speaker Prep;4018;2019-10-23;14:00:00;16:00:00
+Speaker Prep;4019;2019-10-23;16:00:00;18:00:00
+Speaker Prep;4020;2019-10-24;08:00:00;10:00:00
+Speaker Prep;4021;2019-10-24;10:00:00;12:00:00
+Speaker Prep;4022;2019-10-24;12:00:00;14:00:00
+Speaker Prep;4023;2019-10-24;14:00:00;16:00:00
+Speaker Prep;4024;2019-10-24;16:00:00;18:00:00
+Standby;5001;2019-10-19;15:00:00;17:00:00
+Standby;5002;2019-10-19;17:00:00;19:00:00
+Standby;5003;2019-10-19;17:00:00;19:00:00
+Standby;5004;2019-10-20;07:00:00;08:30:00
+Standby;5005;2019-10-20;07:00:00;08:30:00
+Standby;5006;2019-10-20;07:00:00;08:30:00
+Standby;5008;2019-10-20;08:30:00;10:00:00
+Standby;5009;2019-10-20;08:30:00;10:00:00
+Standby;5010;2019-10-20;08:30:00;10:00:00
+Standby;5011;2019-10-20;08:30:00;10:00:00
+Standby;5012;2019-10-20;10:00:00;12:00:00
+Standby;5013;2019-10-20;10:00:00;12:00:00
+Standby;5014;2019-10-20;10:00:00;12:00:00
+Standby;5015;2019-10-20;10:00:00;12:00:00
+VisBuddies Setup;5016;2019-10-20;11:30:00;12:30:00
+VisBuddies Setup;5017;2019-10-20;11:30:00;12:30:00
+Standby;5018;2019-10-20;12:00:00;14:00:00
+Standby;5019;2019-10-20;12:00:00;14:00:00
+Standby;5020;2019-10-20;14:00:00;16:00:00
+Standby;5021;2019-10-20;14:00:00;16:00:00
+Standby;5022;2019-10-20;16:00:00;18:00:00
+Standby;5023;2019-10-20;16:00:00;18:00:00
+Standby;5024;2019-10-20;18:00:00;20:00:00
+Standby;5025;2019-10-20;18:00:00;20:00:00
+VIS Opening Reception;5026;2019-10-20;18:45:00;21:00:00
+VIS Opening Reception;5027;2019-10-20;18:45:00;21:00:00
+VIS Opening Reception;5028;2019-10-20;18:45:00;21:00:00
+VIS Opening Reception;5029;2019-10-20;18:45:00;21:00:00
+VIS Opening Reception;5030;2019-10-20;18:45:00;21:00:00
+VIS Opening Reception;5031;2019-10-20;18:45:00;21:00:00
+Standby;5032;2019-10-21;07:30:00;10:00:00
+Standby;5033;2019-10-21;07:30:00;10:00:00
+Standby;5034;2019-10-21;10:00:00;12:00:00
+Standby;5035;2019-10-21;10:00:00;12:00:00
+Standby;5036;2019-10-21;12:00:00;14:00:00
+Standby;5037;2019-10-21;12:00:00;14:00:00
+Standby;5038;2019-10-21;14:00:00;16:00:00
+Standby;5039;2019-10-21;14:00:00;16:00:00
+Standby;5040;2019-10-21;16:00:00;18:00:00
+Standby;5041;2019-10-21;16:00:00;18:00:00
+Standby;5042;2019-10-21;18:00:00;20:00:00
+Standby;5043;2019-10-22;07:00:00;08:30:00
+Standby;5044;2019-10-21;18:00:00;20:00:00
+Standby;5045;2019-10-22;07:00:00;08:30:00
+Standby;5046;2019-10-22;08:30:00;10:00:00
+Standby;5047;2019-10-22;08:30:00;10:00:00
+Standby;5048;2019-10-22;08:30:00;10:00:00
+Standby;5049;2019-10-22;10:00:00;12:00:00
+Standby;5050;2019-10-22;10:00:00;12:00:00
+Standby;5051;2019-10-22;10:00:00;12:00:00
+Standby;5052;2019-10-22;12:00:00;14:00:00
+Standby;5053;2019-10-22;12:00:00;14:00:00
+Standby;5054;2019-10-22;14:00:00;16:00:00
+Standby;5055;2019-10-22;14:00:00;16:00:00
+Standby;5007;2019-10-20;07:00:00;08:30:00;Nicole;Sultanum;nicolebs@cs.toronto.edu
+Standby;5107;2019-10-25;10:00:00;12:00:00
+Standby;5056;2019-10-22;16:00:00;18:00:00
+Standby;5097;2019-10-24;14:00:00;16:00:00
+Celebration of Life - Luana Micallef;5060;2019-10-22;18:30:00;20:30:00
+Standby;5057;2019-10-22;16:00:00;18:00:00
+Standby;5058;2019-10-22;18:00:00;20:00:00
+Standby;5059;2019-10-22;18:00:00;20:00:00
+Arts Program Reception;5061;2019-10-22;18:45:00;21:00:00
+Arts Program Reception;5062;2019-10-22;18:45:00;21:00:00
+Arts Program Reception;5063;2019-10-22;18:45:00;21:00:00
+Arts Program Reception;5064;2019-10-22;18:45:00;21:00:00
+Standby;5065;2019-10-23;07:30:00;08:30:00
+Standby;5066;2019-10-23;07:30:00;08:30:00
+Standby;5067;2019-10-23;08:30:00;10:00:00
+Standby;5068;2019-10-23;08:30:00;10:00:00
+Standby;5069;2019-10-23;10:00:00;12:00:00
+Standby;5070;2019-10-23;10:00:00;12:00:00
+Standby;5071;2019-10-23;12:00:00;14:00:00
+Standby;5072;2019-10-23;12:00:00;14:00:00
+Standby;5073;2019-10-23;14:00:00;16:00:00
+Standby;5074;2019-10-23;14:00:00;16:00:00
+Standby;5075;2019-10-23;16:00:00;18:00:00
+Standby;5076;2019-10-23;16:00:00;18:00:00
+Posters & Networking & Hiring Events;5077;2019-10-23;17:00:00;19:00:00
+Posters & Networking & Hiring Events;5078;2019-10-23;17:00:00;19:00:00
+Standby;5079;2019-10-23;18:00:00;20:00:00
+Standby;5080;2019-10-23;18:00:00;20:00:00
+VIS Banquet/Dinner Reception;5081;2019-10-23;18:45:00;21:30:00
+VIS Banquet/Dinner Reception;5082;2019-10-23;18:45:00;21:30:00
+VIS Banquet/Dinner Reception;5083;2019-10-23;18:45:00;21:30:00
+VIS Banquet/Dinner Reception;5084;2019-10-23;18:45:00;21:30:00
+VIS Banquet/Dinner Reception;5085;2019-10-23;18:45:00;21:30:00
+VIS Banquet/Dinner Reception;5086;2019-10-23;18:45:00;21:30:00
+Standby;5087;2019-10-24;07:30:00;08:30:00
+Standby;5088;2019-10-24;07:30:00;08:30:00
+Standby;5089;2019-10-24;08:30:00;10:00:00
+Standby;5090;2019-10-24;08:30:00;10:00:00
+Standby;5091;2019-10-24;10:00:00;12:00:00
+Standby;5092;2019-10-24;10:00:00;12:00:00
+VIS 2020 Kickoff Meeting;5093;2019-10-24;12:20:00;14:20:00
+Standby;5094;2019-10-24;12:00:00;14:00:00
+Standby;5095;2019-10-24;12:00:00;14:00:00
+Standby;5096;2019-10-24;14:00:00;16:00:00
+Standby;5098;2019-10-24;16:00:00;18:00:00
+Standby;5099;2019-10-24;16:00:00;18:00:00
+Standby;5100;2019-10-24;18:00:00;20:00:00
+Standby;5101;2019-10-24;18:00:00;20:00:00
+Standby;5102;2019-10-25;07:30:00;08:30:00
+Standby;5103;2019-10-25;07:30:00;08:30:00
+Standby;5104;2019-10-25;08:30:00;10:00:00
+Standby;5105;2019-10-25;08:30:00;10:00:00
+Standby;5106;2019-10-25;10:00:00;12:00:00
+Training;7000;2019-10-19;20:15:00;21:45:00
+Training;7001;2019-10-19;20:15:00;21:45:00
+Training;7002;2019-10-19;20:15:00;21:45:00
+Training;7003;2019-10-19;20:15:00;21:45:00
+Training;7004;2019-10-19;20:15:00;21:45:00
+Training;7005;2019-10-19;20:15:00;21:45:00
+Training;7006;2019-10-19;20:15:00;21:45:00
+Training;7007;2019-10-19;20:15:00;21:45:00
+Training;7008;2019-10-19;20:15:00;21:45:00
+Training;7009;2019-10-19;20:15:00;21:45:00
+Training;7010;2019-10-19;20:15:00;21:45:00
+Training;7011;2019-10-19;20:15:00;21:45:00
+Training;7012;2019-10-19;20:15:00;21:45:00
+Training;7013;2019-10-19;20:15:00;21:45:00
+Training;7014;2019-10-19;20:15:00;21:45:00
+Training;7015;2019-10-19;20:15:00;21:45:00
+Training;7016;2019-10-19;20:15:00;21:45:00
+Training;7017;2019-10-19;20:15:00;21:45:00
+Training;7018;2019-10-19;20:15:00;21:45:00
+Training;7019;2019-10-19;20:15:00;21:45:00
+Training;7020;2019-10-19;20:15:00;21:45:00
+Training;7036;2019-10-19;20:15:00;21:45:00
+Training;7021;2019-10-19;20:15:00;21:45:00
+Training;7058;2019-10-20;18:15:00;19:45:00
+Training;7050;2019-10-20;18:15:00;19:45:00;SV;VIS;svadmin
+Training;7022;2019-10-19;20:15:00;21:45:00
+Training;7035;2019-10-19;20:15:00;21:45:00
+Training;7023;2019-10-19;20:15:00;21:45:00
+Training;7028;2019-10-19;20:15:00;21:45:00
+Training;7024;2019-10-19;20:15:00;21:45:00
+Training;7025;2019-10-19;20:15:00;21:45:00
+Training;7026;2019-10-19;20:15:00;21:45:00
+Training;7027;2019-10-19;20:15:00;21:45:00
+Training;7029;2019-10-19;20:15:00;21:45:00
+Training;7030;2019-10-19;20:15:00;21:45:00
+Training;7031;2019-10-19;20:15:00;21:45:00
+Training;7032;2019-10-19;20:15:00;21:45:00
+Training;7033;2019-10-19;20:15:00;21:45:00
+Training;7034;2019-10-19;20:15:00;21:45:00
+Training;7037;2019-10-19;20:15:00;21:45:00
+Training;7038;2019-10-19;20:15:00;21:45:00
+Training;7039;2019-10-19;20:15:00;21:45:00
+Training;7040;2019-10-19;20:15:00;21:45:00
+Training;7041;2019-10-20;18:15:00;19:45:00
+Training;7042;2019-10-20;18:15:00;19:45:00
+Training;7043;2019-10-20;18:15:00;19:45:00
+Training;7044;2019-10-20;18:15:00;19:45:00
+Training;7045;2019-10-20;18:15:00;19:45:00
+Training;7046;2019-10-20;18:15:00;19:45:00
+Training;7047;2019-10-20;18:15:00;19:45:00
+Training;7048;2019-10-20;18:15:00;19:45:00
+Training;7049;2019-10-20;18:15:00;19:45:00
+Training;7051;2019-10-20;18:15:00;19:45:00
+Training;7052;2019-10-20;18:15:00;19:45:00
+Training;7053;2019-10-20;18:15:00;19:45:00
+Training;7054;2019-10-20;18:15:00;19:45:00
+Training;7055;2019-10-20;18:15:00;19:45:00
+Training;7056;2019-10-20;18:15:00;19:45:00
+Training;7057;2019-10-20;18:15:00;19:45:00
+Training;7059;2019-10-20;18:15:00;19:45:00
+Training;7060;2019-10-20;18:15:00;19:45:00
+Training;7061;2019-10-20;18:15:00;19:45:00
+Day Captain;8000;2019-10-20;07:00:00;21:00:00;Subhashis;Hazarika;hazarika.3@osu.edu
+Day Captain;8001;2019-10-21;07:30:00;20:00:00;Xiyao;Wang;xiyao.wang@inria.fr
+Day Captain;8002;2019-10-22;07:00:00;21:00:00;Michelle;Dowling;dowlingm@vt.edu
+Day Captain;8003;2019-10-23;07:30:00;21:00:00;Juan;Trelles Trabucco;jtrell2@uic.edu
+Day Captain;8004;2019-10-24;07:30:00;20:30:00;Tom;Horak;tom.horak@tu-dresden.de
+Day Captain;8005;2019-10-25;07:30:00;13:00:00;Nicole;Sultanum;nicolebs@cs.toronto.edu

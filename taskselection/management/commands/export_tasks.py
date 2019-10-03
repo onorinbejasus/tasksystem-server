@@ -15,6 +15,7 @@ EXPORT_FIELDS = [
   'endtime',
   'firstname',
   'lastname',
+  'location',
   'email'
 ]
 
