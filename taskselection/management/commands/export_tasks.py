@@ -13,9 +13,9 @@ EXPORT_FIELDS = [
   'date',
   'starttime',
   'endtime',
+  'location',
   'firstname',
   'lastname',
-  'location',
   'email'
 ]
 
@@ -35,7 +35,7 @@ class Command(BaseCommand):
       print(BASE_DIR);
       #.values_list(EXPORT_FIELDS, flat=True)
       for task in tasks:
-        row = [task.desc, task.code, task.date, task.starttime, task.endtime]
+        row = [task.desc, task.code, task.date, task.starttime, task.endtime,  task.location]
         if task.sv:
           row = row + [task.sv.first_name, task.sv.last_name, task.sv.email]
         csvwriter.writerow(row)
