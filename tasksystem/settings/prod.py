@@ -28,7 +28,7 @@ SECRET_KEY = os.environ['SECRET_KEY']
 #SECRET_KEY = os.environ.get('SECRET_KEY')
 
 # CORS settings
-CORS_ORIGIN_ALLOW_ALL = False
+CORS_ORIGIN_ALLOW_ALL = True
 CORS_ORIGIN_WHITELIST = (
   'vissv.org',
   '54.201.77.132',
