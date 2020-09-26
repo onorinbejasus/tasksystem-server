@@ -23,7 +23,7 @@ class Command(BaseCommand):
         User.objects.filter(is_superuser=False).delete()
     
     with open(options['users'], 'r', encoding='utf-8-sig') as csvfile:
-      csvreader = csv.DictReader(csvfile, delimiter=';')
+      csvreader = csv.DictReader(csvfile, delimiter=',')
       # if this doesn't work the delimiter might be wrong
       for row in csvreader:
         try:
