@@ -39,4 +39,5 @@ class Command(BaseCommand):
         if task.sv:
           row = row + [task.sv.first_name, task.sv.last_name, task.sv.email]
         csvwriter.writerow(row)
-        print(";".join(row))
+        values = [str(x) for x in row]
+        print(";".join(values))
